@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Brand palette: change colours here and they update site-wide. */
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-navy-950: #061631;
+  --color-navy-900: #0B2545;
+  --color-navy-800: #13315C;
+  --color-navy-700: #1D4E89;
+  --color-navy-600: #2A62A8;
+
+  --color-harbour-50: #F4F8FD;
+  --color-harbour-100: #E8F1FB;
+  --color-harbour-200: #CFE2F6;
+  --color-harbour-300: #A9CBEE;
+  --color-harbour-400: #8DB8E8;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Keeps section headings clear of the sticky navbar when jumping to them. */
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

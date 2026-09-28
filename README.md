@@ -1,8 +1,23 @@
 # Harbour Tutoring website
 
-A 5-page static website (plain HTML + one CSS file). No build step.
+A single-page, mobile-responsive site built with React, Vite and Tailwind CSS.
 
-- Edit any `.html` file to change text.
-- Edit `styles.css` (top of file) to change colours and fonts site-wide.
-- Every push to the `main` branch on GitHub is published automatically by Netlify.
-- The contact form uses Netlify Forms (submissions appear in the Netlify dashboard under Forms).
+## Run locally
+
+```bash
+npm install
+npm run dev      # start a local dev server
+npm run build    # production build in dist/
+```
+
+## Editing
+
+- Page sections live in `src/components/` (`Hero`, `WhyChooseUs`, `About`, `Services`, `Pricing`, `Contact`, `Footer`).
+- Brand colours and the font are set once in `src/index.css` (`@theme` block).
+- Placeholder to replace: the social links (`Footer.jsx`).
+
+## Deploying
+
+Netlify builds the site with `npm run build` and publishes `dist/` (see `netlify.toml`).
+Contact form submissions go to Netlify Forms and show up in the Netlify dashboard under **Forms**.
+In local dev the form only simulates a successful send.
