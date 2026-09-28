@@ -14,7 +14,7 @@ npm run build    # production build in dist/
 
 - Page sections live in `src/components/` (`Hero`, `WhyChooseUs`, `About`, `Services`, `Pricing`, `Contact`, `Footer`).
 - Brand colours and the font are set once in `src/index.css` (`@theme` block).
-- Placeholders to replace: the team photo (`About.jsx`), the Google Maps box (`Contact.jsx`) and the social links (`Footer.jsx`).
+- Placeholder to replace: the social links (`Footer.jsx`).
 
 ## Deploying
 

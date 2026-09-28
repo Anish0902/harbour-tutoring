@@ -235,15 +235,6 @@ export default function Contact() {
                 </li>
               ))}
             </ul>
-
-            {/* Replace this box with a Google Maps <iframe> embed. */}
-            <div
-              role="img"
-              aria-label="Map placeholder"
-              className="flex min-h-64 flex-1 items-center justify-center rounded-3xl bg-gray-200 p-6 text-center text-lg font-semibold text-gray-700 ring-1 ring-gray-300"
-            >
-              Google Maps Embed Here
-            </div>
           </div>
         </div>
       </div>
