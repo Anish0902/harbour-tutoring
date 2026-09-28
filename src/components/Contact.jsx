@@ -27,7 +27,7 @@ const details = [
       <>
         Mon – Fri: 3pm – 8pm
         <br />
-        Saturday: 9am – 3pm
+        Saturday: 9am – 1pm
       </>
     ),
   },
