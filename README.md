@@ -12,7 +12,7 @@ npm run build    # production build in dist/
 
 ## Editing
 
-- Page sections live in `src/components/` (`Hero`, `WhyChooseUs`, `About`, `Services`, `Pricing`, `Contact`, `Footer`).
+- Page sections live in `src/components/` (`Hero`, `WhyChooseUs`, `About`, `Services`, `Pricing`, `FAQ`, `Contact`, `Footer`).
 - Brand colours and the font are set once in `src/index.css` (`@theme` block).
 - Placeholder to replace: the social links (`Footer.jsx`).
 
