@@ -37,9 +37,9 @@
 <main id="main">
   <section>
     <div class="wrap cols">
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="company" action="thanks.html">
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thanks.html">
         <input type="hidden" name="form-name" value="contact">
-        <p class="skip"><label>Leave this empty <input name="company"></label></p>
+        <p class="skip" aria-hidden="true"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
         <label for="name">Your name</label>
         <input id="name" name="name" autocomplete="name" required>
         <label for="email">Email</label>
